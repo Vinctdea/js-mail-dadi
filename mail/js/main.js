@@ -7,6 +7,8 @@ console.log(mailList);
 
 const bottone = document.querySelector(".btn");
 const formMail = document.getElementById("mail");
+const vero = document.querySelector(".si")
+const falso = document.querySelector(".no")
 bottone.addEventListener("click",
     function(){
         let valoreMail = formMail.value;
@@ -16,15 +18,20 @@ bottone.addEventListener("click",
         for (let i=0; i< mailList.length; i++){
             let lista= mailList[i]
             console.log(lista);
+
+            // controlla che sia nella lista di chi può accedere, 
+            // stampa un messaggio appropriato sull’esito del controllo.
+            if( valoreMail=== lista){
+                vero.classList.add("display")
+            }else {
+                falso.classList.add("display")
+            }
         }
 
     }
 )
 
 
-// controlla che sia nella lista di chi può accedere, 
 
 
 
-
-// stampa un messaggio appropriato sull’esito del controllo.

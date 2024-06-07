@@ -34,3 +34,11 @@ form > *{
     cursor: pointer;
     width: fit-content;
 }
+
+.si , .no{
+    display: none;
+}   
+
+.display{
+    display: block;
+}
