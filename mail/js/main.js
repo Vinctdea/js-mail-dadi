@@ -9,6 +9,7 @@ const bottone = document.querySelector(".btn");
 const formMail = document.getElementById("mail");
 const vero = document.querySelector(".si")
 const falso = document.querySelector(".no")
+const reset = document.getElementById("reset")
 bottone.addEventListener("click",
     function(){
         let valoreMail = formMail.value;
@@ -35,7 +36,11 @@ bottone.addEventListener("click",
     }
 )
 
-
+reset.addEventListener("click",
+    function(){
+        window.location.reload()
+    }
+)
 
 
 

@@ -20,6 +20,11 @@ section h1{
 
 }
 
+.flex{
+    display: flex;
+    gap: 30px;
+}
+
 form > *{
     margin: 10px;
     font-size: 30px;
