@@ -1,0 +1,36 @@
+/************REFGOLE GENERALI*************  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/************** regole main*********** */
+
+section{
+    width: 60%;
+    margin: 0 auto;
+}
+
+section h1{     
+    text-transform: uppercase;
+    font-size: 50px;
+
+}
+
+form > *{
+    margin: 10px;
+    font-size: 30px;
+}
+
+.btn{
+    background-color: grey;
+    color: white;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: fit-content;
+}
