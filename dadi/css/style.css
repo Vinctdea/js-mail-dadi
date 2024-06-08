@@ -10,9 +10,14 @@
 main{
     width: 70%;
     margin: 0 auto;
-    font-size: 40px;
+    font-size: 40px; 
+    text-align: center;
     
     
+}
+
+main > *{
+    margin-bottom: 30px;
 }
 
 h2{
@@ -32,14 +37,126 @@ h2{
     cursor: pointer;
 }
 
+.risultato{
+    color: crimson;
+    margin-top: 50px;
+}
+
 .hum{
+    
     color: rgb(27, 215, 27);
+    
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
 
 .bot{
-    color: red;
+    color: brown;
 }
 
-.risultato{
-    color: darkorange;
+.dadi{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(176, 171, 171);
+    border-radius: 10px;
+    
+}
+
+.none{
+    display: none;
+}
+
+.dado1{
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+
+.dadox3{
+    position: relative;
+
+}
+
+.colx31{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.colx33{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.dadox4{
+    position: relative;
+}
+.colx41{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.colx42{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.colx43{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.colx44{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+
+}
+
+.dadox5{
+    position: relative;
+}
+
+.colx51{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.colx52{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+}
+
+.colx54{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.colx55{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.dadox5{
+    flex-direction: column;
+    gap: 25%;
 }
